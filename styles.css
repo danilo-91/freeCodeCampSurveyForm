@@ -1,0 +1,13 @@
+body {
+  background: deepskyblue;
+}
+
+.form-section {
+  background-color: dodgerblue;
+  border-radius: 15px;
+  margin: 2em auto;
+  padding: 1em;
+  width: 50%;
+  align: center;
+  max-width: 500px;
+}
