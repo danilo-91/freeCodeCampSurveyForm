@@ -1,13 +1,68 @@
 body {
+  display: block;
   background: deepskyblue;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0.2em;
+}
+
+#subtitle {
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+}
+
+.introduction {
+  width: 60%;
+  max-width: 600px;
+  align: center;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin: 0.25em 0 0.25em 10%;
+}
+
+label:first-child {
+  margin-top: 14px;
 }
 
 .form-section {
   background-color: dodgerblue;
   border-radius: 15px;
-  margin: 2em auto;
+  margin: 0.5em auto;
   padding: 1em;
   width: 50%;
   align: center;
   max-width: 500px;
 }
+
+input:last-child {
+  margin-bottom: 16px;
+}
+
+.first-section {
+  display: block;
+  height: 2em;
+  width: 80%;
+  border: 2px #004d99 solid;
+  border-radius: 15px;
+  padding: 0 0 0 1em;
+  margin: 0 auto;
+}
+
+select {
+  display: block;
+  height: 2em;
+  width: 80%;
+  border: 2px #004d99 solid;
+  border-radius: 15px;
+  padding: 0 0 0 0.5em;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+

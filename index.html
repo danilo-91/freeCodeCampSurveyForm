@@ -5,21 +5,30 @@
       <title>The best survey in the world</title>
     </head>
     <body>
-      <h1 id="title">The second best survey on the world</h1>
-      <p id="subtitle">Cause the last one died in chrome's cache</p>
-      <p id="introduction">Welcome to the best survey of all time (the second one, really). Please, tell us what you think about our survey!</p>
-      <form>
+      <div class="introduction">
+	<h1 id="title">The second best survey on the world</h1>
+	<p id="subtitle">(Cause the previous one died with chrome's cache)</p>
+	<p id="description">Welcome to the best survey of all time (the second one, really). Please, tell us what you think about our survey!</p>
+      </div>
+      <form id="survey-form">
 	<div class="form-section">
-	  <label>Name</label>
-	  <input type="text" placeholder="Enter your name, please" />
+	  <label id="name-label">Name</label>
+	  <input id="name" class="first-section" type="text" placeholder="Enter your name, please" />
+	  <label id="email-label">Email</label>
+	  <input id="email" class="first-section"  type="email" placeholder="example@email.ar" />
 	  <label>Enter your name again</label>
-	  <input type="text" placeholder="Just to be sure" />
-	  <label>Now your age</label>
-	  <input type="number" min="0" max="30" placeholder="No lies please" />
+	  <input type="text" class="first-section"  placeholder="Just to be sure" />
+	  <label id="number-label">Now your age</label>
+	  <input id="number" class="first-section"  type="number" min="0" max="30" placeholder="No lies please" />
 	</div>
 	<div class="form-section">
 	  <label>Now some select</label>
-	  <select>
+	  <select id="dropdown" required>
+	    <option disabled selected value>(please, select one option)</option>
+	    <option value="best-survey">This is the best survey I've ever seen</option>
+	    <option value="amazing">This is amazing</option>
+	    <option value="wow">WOW</option>
+	    <option value="outstanding">Outstanding</option>
 
 	  </select>
 	</div>
