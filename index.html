@@ -22,33 +22,43 @@
 	  <input id="number" class="first-section"  type="number" min="0" max="30" placeholder="No lies please" />
 	</div>
 	<div class="form-section">
-	  <label>Now some select</label>
+	  <label>Now some select. Please tell us, what you think about our survey?</label>
 	  <select id="dropdown" required>
 	    <option disabled selected value>(please, select one option)</option>
 	    <option value="best-survey">This is the best survey I've ever seen</option>
 	    <option value="amazing">This is amazing</option>
 	    <option value="wow">WOW</option>
 	    <option value="outstanding">Outstanding</option>
-
 	  </select>
 	</div>
 	<div class="form-section">
-	  <label>Some radios</label>
-	  <input type="radio" name="radio-section" />
-	  <input type="radio" name="radio-section" />
+	  <label>Let's use some radio to rate this survey between 0 and 10.</label>
+	  <label><input type="radio" name="radio-section" value="ten" checked/>10</label>
+	  <label><input type="radio" name="radio-section" value="nine-plus"/>9+1</label>
+	  <label><input type="radio" name="radio-section" value="ten-again"/>10</label>
+	  <label><input type="radio" name="radio-section" value="letter-ten"/>Ten</label>
 	</div>
 	<div class="form-section">
 	  <label>Another select, just in case you changed your mind</label>
 	  <select>
+	    <option disabled selected value>(please, select another option)</option>
+	    <option value="cant-change">I can't change my mind, this is awesome</option>
 	  </select>
 	</div>
 	<div class="form-section">
-	  <label>Of course, the second best survey in the world needs a checkbox section</label>
+	  <label>Of course, the second best survey in the world needs a checkbox section. Tell us whay would you like to be improved.</label>
+	  <label><input type="checkbox" name="checkbox-section" value="nothing" checked/>Nothing,<span class="normal"> it's perfect as it is (in Normal text)</span></label>
+	  <label><input type="checkbox" name="checkbox-section" value="nothing-bold" checked/>Nothing,<span class="bold"> it's perfect as it is (in bold)</span></label>
+	  <label><input type="checkbox" name="checkbox-section" value="nothing-underline" checked/>Nothing,<span class="underline"> it's perfect as it is (w/underline)</span></label>
 	</div>
 	<div class="form-section">
-	  <label>And last and least, your comments</label>
-	  <input type="text" />
+	  <label>And last and least, your comments.</label>
+	  <textarea placeholder="We know that you don't need this, but freeCodeCamp &copy; ask us to put it in here"></textarea>
 	</div>
+	<button type="submit" class="submit-button">Submit</button>
       </form>
     </body>
+    <footer>
+      <a href="https://www.freepik.com/free-vector/blue-white-polygonal-mosaic-background_6613649.htm" target="_blank">Background Image by Harryarts</a> on Freepik
+    </footer>
   </html>
