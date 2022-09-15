@@ -13,9 +13,9 @@
       <form id="survey-form">
 	<div class="form-section">
 	  <label id="name-label">Name</label>
-	  <input id="name" class="first-section" type="text" placeholder="Enter your name, please" />
+	  <input id="name" class="first-section" type="text" placeholder="Enter your name, please" required />
 	  <label id="email-label">Email</label>
-	  <input id="email" class="first-section"  type="email" placeholder="example@email.ar" />
+	  <input id="email" class="first-section"  type="email" placeholder="example@email.ar" required />
 	  <label>Enter your name again</label>
 	  <input type="text" class="first-section"  placeholder="Just to be sure" />
 	  <label id="number-label">Now your age</label>
@@ -55,7 +55,7 @@
 	  <label>And last and least, your comments.</label>
 	  <textarea placeholder="We know that you don't need this, but freeCodeCamp &copy; ask us to put it in here"></textarea>
 	</div>
-	<button type="submit" class="submit-button">Submit</button>
+	<button type="submit" id="submit" class="submit-button">Submit</button>
       </form>
     </body>
     <footer>
